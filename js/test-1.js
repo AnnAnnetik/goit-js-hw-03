@@ -1,8 +1,8 @@
 function slugify(title) {
     return title
-      .toLowerCase() // перетворюємо у нижній регістр
-      .split(' ') // розділяємо рядок на слова за допомогою пробілу
-      .join('-'); // об'єднуємо слова тире
+      .toLowerCase() 
+      .split(' ') 
+      .join('-'); 
   }
   
   let title="";
